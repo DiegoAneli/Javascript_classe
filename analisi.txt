@@ -1,0 +1,13 @@
+Viene chiesto all utente una password.
+Se la password coincide, all utente viene mostrato un messaggio : "Benvenuto nella dashboard!"
+Se la password non è corretta, mostra un messaggio : "Non abilitato alla dashboard."
+
+
+Come ? prompt 
+tipo ? stringa
+if (se indovino la password) entro
+else no
+output? console.log alert?
+eccezioni ?
+
+

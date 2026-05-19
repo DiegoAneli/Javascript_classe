@@ -1,0 +1,14 @@
+prompt()            ->  chiede dato all utente tramite finestella (o volgarmente un "modale" )  "INPUT"
+
+alert()             ->  manda un messaggio a schermo visibile all utente  "OUTPUT"
+
+console.log()       ->  log in console ( nel devtools del browser )
+
+.toFixed(2)         ->  metodo che ci permette di scegliere attraverso il valore nella parentesi (es.: 2) del numero di posizioni dopo la virgola
+
+.toLowerCase()      ->  appiattisce tutto l input in minuscolo    
+
+.toUpperCase()      ->  appiattisce tutto l input in maiuscolo
+
+.trim()             ->  toglie tutti gli spazi dall input (es.: "pi pp o" -> "pippo")
+
