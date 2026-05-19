@@ -16,3 +16,47 @@ Calcolare la bolletta totale.
 
 
 */
+
+//------------------------------------       SVOLGIMENTO    ---------------------------------------
+
+
+let kwh = parseFloat(prompt("Quanti kwh hai consumato?"));
+
+let costoBase = 0.25; // fino a 100kw
+let costoRidotto = 0.20; // dopo i 100kw
+
+let costoCanone;
+let costoEnergia;
+
+if(kwh <= 100){
+
+    costoEnergia = kwh * costoBase;
+
+}else{
+
+    costoEnergia = (100 * costoBase) + ((kwh-100) * costoRidotto);
+}
+
+
+let canone = prompt("Vuoi sottoscrivere l abbonamento a Sky? si/no").toLowerCase();
+
+
+if(canone === "si"){
+
+    costoCanone = 10;
+}else{
+
+    costoCanone = 0;
+}
+
+
+let totale = costoEnergia + costoCanone;
+
+console.log("Consumo : ", kwh, "kwh");
+console.log("Costo energia : ", costoEnergia.toFixed(2));
+console.log("Totale bolletta : ",totale.toFixed(2));
+
+if (costoCanone > 0 ){
+
+    console.log("Costo canone :", costoCanone.toFixed(2));
+}
