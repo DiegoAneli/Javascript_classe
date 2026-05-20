@@ -1,0 +1,9 @@
+vedere tag video per includere video in page html ed eventuale herosection con scritta al centro in opacity
+
+
+vedere markdown linguaggio per readme progetti -> immagini locali e tramite link
+
+
+
+esercizio fizzbuzz
+
