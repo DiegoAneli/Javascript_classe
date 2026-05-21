@@ -35,4 +35,15 @@ console.log("Hello Class!");
 
 ![Section Contact:](Screenshot_website4.PNG)
 
+| Tecnologie | Versione |
+|---|---|
+| Html | V.5 |
+| Css | V.4 |
+| Js | V.Es5 |
+
+
+
+
+
+
 
