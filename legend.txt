@@ -10,5 +10,5 @@ console.log()       ->  log in console ( nel devtools del browser )
 
 .toUpperCase()      ->  appiattisce tutto l input in maiuscolo
 
-.trim()             ->  toglie tutti gli spazi dall input (es.: "pi pp o" -> "pippo")
+.trim()             ->  toglie tutti gli spazi dall input (es.: "pi pp o" -> "pippo");
 
