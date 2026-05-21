@@ -1,6 +1,6 @@
 //----------------------------CICLO FOR
 //
-//     init   condizione  incremento
+//    init   condizione  incremento
 for(let i = 0;  i <= 3;  i++){
 
     //console.log(i);
@@ -88,12 +88,15 @@ for (let i = 0; i < citta.length; i++){
 
 let frutta = ["Mela", "Banana", "Kiwi", "Pera", "Fragola"];
 let spesa = ["Latte", "Mela", "Pane", "Fragola", "Acqua"];
-let uguali = [];
+let uguali = [""];
 
 
 for (var i = 0; i < frutta.length; i++) {
+
     for(var x = 0; x < spesa.length; x++){
+
         if(frutta[i] === spesa[x]){
+
             uguali.push(frutta[i]);
         }
     }
@@ -136,6 +139,7 @@ for(let i= 0; i < array1.length; i++) {
         if (valori1 === valori2){
 
             console.log("i numeri uguali sono  : " + valori2);
+
         }
     }
 }
@@ -151,6 +155,7 @@ for (let i = 0; i < num1.length; i++){
         for(let x = 0; x < num2.length; x++){
 
             if(num1[i] === num2[x]){
+
                 console.log(num1[i]);
             }
 
@@ -165,3 +170,69 @@ for (let i = 0; i < num1.length; i++){
 
 //2)Generare due array con n num casuali e confrontare se uguali
 
+let array1 = [];
+let array2 = [];
+
+for (let i = 0; i < 5; i++) {
+    array1.push(Math.floor(Math.random() * 10));
+    array2.push(Math.floor(Math.random() * 10));
+}
+
+for (let i = 0; i < array1.length; i++) {
+    for (let x = 0; x < array2.length; x++) {
+        if(array1[i] === array2[x]){
+            console.log("Valore uguale trovato : ", array1[i]);
+        }
+    }
+}
+
+console.log("Array1 : " , array1);
+console.log("Array2 : " , array2);
+
+
+
+//Viene chiesto all utente 5 volte un numero
+//questo numero dovrà essere raddoppiato 
+//stampare i valori raddoppiati
+
+
+
+
+//Svolgimento
+
+//prendo il dato 5 volte tramite 
+//prompt( che dato è? numero? string? parseQualcosa, trim, tolower )
+
+    // BONUS : nel prompt voglio avere
+    //         un messaggio che cambia dopo ogni numero inserito.
+    //         es.: Inserisci il PRIMO numero di 5
+    //              Inserisci il SECONDO numero di 5..
+
+//dichiaro un array vuoto per salvare l dato inserito
+//dichiaro un altro array per salvare quelli raddoppiati
+
+//raddoppio il valore
+
+//pusho il valore raddoppiato nell array dei num doppi
+
+//console log valori doppi(array_doppi)
+
+
+
+
+//Esercizio 2
+
+//Abbiamo un sistema che dispone di una lista di codici di accesso
+
+// let codici = [101, 202, 303, 404];
+
+//Problema :  l utente deve inserire un codice per accedere al sistema.
+
+    //  il programma deve verficare : SE il codice è valido E SE questo codice rientra in un certo intervallo.
+   
+    // Richieste : verifica se il codice è presente nell array 
+    //             e contemporaneamente SE MAGGIORE O UGUALE A 100 E MINORE O UGUALE A 400
+
+    //Se entrambe le condizioni sono vere, > stampa "Accesso Consentito"
+    //Se il codice è nell array MA è fuori dall intervallo, > stmpa "Codice valido ma fuori dal range"
+    //Se il codice non è presente > "Accesso Negato"
