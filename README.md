@@ -29,3 +29,9 @@ console.log("Hello Class!");
 
 ![HeroSection:](Screenshot_website1.PNG)
 
+![Section About Us:](Screenshot_website2.PNG)
+
+![Section Adopt:](Screenshot_website3.PNG)
+
+![Section Contact:](Screenshot_website4.PNG)
+
