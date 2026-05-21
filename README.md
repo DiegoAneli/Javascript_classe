@@ -27,5 +27,5 @@ console.log("Hello Class!");
 
 [SitoCani](https://sitocani2.vercel.app/)
 
-
+![HeroSection:](Screenshot_website1.PNG)
 
