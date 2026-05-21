@@ -169,7 +169,7 @@ for (let i = 0; i < num1.length; i++){
 
 
 //2)Generare due array con n num casuali e confrontare se uguali
-
+/*
 let array1 = [];
 let array2 = [];
 
@@ -189,14 +189,11 @@ for (let i = 0; i < array1.length; i++) {
 console.log("Array1 : " , array1);
 console.log("Array2 : " , array2);
 
+*/
 
-
-//Viene chiesto all utente 5 volte un numero
-//questo numero dovrà essere raddoppiato 
-//stampare i valori raddoppiati
-
-
-
+//      Viene chiesto all utente 5 volte un numero
+//      questo numero dovrà essere raddoppiato 
+//      stampare i valori raddoppiati
 
 //Svolgimento
 
@@ -217,36 +214,51 @@ console.log("Array2 : " , array2);
 
 //console log valori doppi(array_doppi)
 
+//dichiaro un array vuoto che verrà popolato con i numeri inseirti dall utente
+let numeriQ = [];
+
+//dichiaro un array che conterrà i numeri raddoppiati in modo da poterli stampare in console.log
+let numeriDoppi = [];
 
 
+for(let i = 0 ; i < 5; i++){
+
+    let valore = parseInt(prompt("Inserisci 5 numeri : ( "+ (i+1) + " di 5): ")); // prendo il numero dall utente
+    numeriQ.push(valore); //aggiungo x 5 volte il numero dell utente nell array vuoto
+    numeriDoppi.push(numeriQ[i] * 2); // raddoppio i * 2 e lo aggiungo come valore all array dei numeri raddoppiati
+
+}
+
+alert("Ecco i valorei raddoppiati : " + numeriDoppi.join(", "));
+console.log("Ecco i valorei raddoppiati : " + numeriDoppi.join(", "));
 
 
+/*versione salma* 
 
 
+let array = [];
+let array_doppi = [];
+
+let volta = ["PRIMO", "SECONDO", "TERZO", "QUARTO", "QUINTO"];
 
 
+for (let i = 0; i < volta.length; i++){
 
+    let  x = parseInt(prompt("Inserisci il " + volta[i] + " numero di 5."));
 
+    array.push(x);
 
+    array_doppi.push(x * 2);
 
+    console.log("I numeri inseriti sono: ", array.join(", "));
+    console.log("I numeri raddoppiati sono: ", array_doppi.join(", "))
 
+}
 
+alert("I numeri inseriti sono: " + array.join(", "));
+alert("I numeri raddoppiati sono: " + array_doppi.join(", "))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 //Esercizio 2
@@ -265,3 +277,117 @@ console.log("Array2 : " , array2);
     //Se entrambe le condizioni sono vere, > stampa "Accesso Consentito"
     //Se il codice è nell array MA è fuori dall intervallo, > stmpa "Codice valido ma fuori dal range"
     //Se il codice non è presente > "Accesso Negato"
+
+
+//codici per riuscire ad entrare
+let codici = [101, 202, 303, 404];
+
+//sto salvando il numero inserito dall utente
+let input = parseInt(prompt("Insierisci il tuo codice di accesso"));
+
+//trasformo l input in tipo Number  (input diventa codiceUTENTE)
+let codiceUtente = Number(input);
+
+//verifico se il codice utente è presente nella lista dei codici e salvo in codicePresente
+let codicePresente = codici.includes(codiceUtente);
+
+//Verifico se in codiceInRange 
+let codiceInRange = codiceUtente >= 100 && codiceUtente <= 400;
+
+
+//se il codice è presente nell array E si trova nel range
+
+if (codicePresente && codiceInRange){
+
+    console.log("Accesso consentito");
+
+}else if (codicePresente && !codiceInRange){
+
+    console.log("Codice valido ma fuori dal range");
+
+}else{
+
+    console.log("Accesso Negato");
+}
+
+
+/* versione serena
+
+    let codici = [101, 202, 303, 404];
+    let codiceUtente = parseInt(prompt("Per accedere inserisci il codice: "));
+    
+    
+        if (codici.includes(codiceUtente)) {
+
+            if(codiceUtente >= 100 && codiceUtente <= 400){
+                        
+                alert("Accesso consentito!");
+
+            }else {
+
+                alert("Codice valido ma fuori dal range");
+            } 
+
+        }else {
+
+            alert("Accesso NON consentito!");
+           
+    };
+
+    */
+
+/* codice chiara
+
+    let codici = [101, 202, 303, 404];
+    
+    let numIns = parseInt(prompt(" metti il tuo codice di accesso" ));
+
+    //console.log(numIns);
+
+    if(codici.includes(numIns) && numIns >=100 && numIns <= 400){
+
+        alert("Accesso Consentito")
+
+    }else if (codici.includes(numIns) && (numIns <=100 || numIns >=400) ){
+
+        alert("codice corretto ma fuori range")
+
+    }else{
+
+        alert("Accesso Negato")
+
+    }
+
+    */
+
+/* versione matteo
+
+    let codici = [101, 202, 303, 404];
+    let inputCodice = parseInt(prompt("Inserisci il codice d'accesso : "));
+    let trovato = false;
+
+
+    for (let i = 0; i < codici.length; i++) {
+
+        if (inputCodice === codici[i]) {
+
+            trovato = true;
+
+            if (inputCodice >= 100 && inputCodice <= 400) {
+
+                console.log("Accesso Consentito!");
+
+            } else {
+                
+                console.log("Codice valido ma fuori dal range.");
+            }
+        }
+    }
+
+    if (trovato === false) {
+        console.log("Accesso Negato!");
+    }
+
+    */
+
+
