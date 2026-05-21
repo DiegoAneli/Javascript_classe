@@ -15,3 +15,12 @@ questo è un testo normale
   1.Installazione
   2.Setup
   
+Per avviare i progetti utilizza `go-live server`
+
+```js
+console.log("Hello Class!");
+```
+
+```html
+<h1>hello</h1>
+```
