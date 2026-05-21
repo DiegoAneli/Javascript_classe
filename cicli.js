@@ -220,6 +220,35 @@ console.log("Array2 : " , array2);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Esercizio 2
 
 //Abbiamo un sistema che dispone di una lista di codici di accesso
