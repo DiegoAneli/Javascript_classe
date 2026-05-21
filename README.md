@@ -44,6 +44,14 @@ console.log("Hello Class!");
 
 > Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus modi perspiciatis cupiditate temporibus nesciunt! Odio, temporibus assumenda ea unde incidunt magni corrupti aperiam exercitationem cum soluta architecto natus quis voluptatibus!
 
+---
+
+- [x] Frontend Completato
+- [x] Dashboard Completata
+- [ ] Backend da tipizzare
+
+
+
 
 
 
