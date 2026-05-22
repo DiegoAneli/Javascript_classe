@@ -30,3 +30,37 @@ function cambiaColore(){
  *                       l altro, lo nasconde
  * 
  */
+
+function coloraDivRosso(){
+
+    document.getElementById("divrosso").style.background = "#ed180d"
+
+}
+
+function nascondi(){
+
+    document.getElementById("divrosso").style.display = "none";
+
+}
+
+
+function visualizza(){
+
+    document.getElementById("divrosso").style.display = "block";
+}
+
+
+/**
+ * 
+ * chiediamo 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+
+
