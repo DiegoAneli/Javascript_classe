@@ -52,13 +52,10 @@ function visualizza(){
 
 /**
  * 
- * chiediamo 
+ * generare un numero casuale da 1 a 10 incluso tramite una funzione
+ * mostrare il risulato del numero casuale in un p a schermo
  * 
- * 
- * 
- * 
- * 
- * 
+ * scegliete voi se mostrare il res tramite bottone o meno
  * 
  */
 
