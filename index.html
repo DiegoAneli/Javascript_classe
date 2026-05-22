@@ -9,6 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Honk:MORF@20&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MonteCarlo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Linear+A&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap" rel="stylesheet">
     <!--importazione file css personale-->
     <link rel="stylesheet" href="style.css">
+    
+
+    <style>
+
+        .box {
+
+            width: 300px;
+            height: 300px;
+            background: red;
+        }
+
+    </style>
 
 </head>
 <body>
@@ -26,8 +38,31 @@
     -->
 
 
+    <h1>Esempi di funzioni collegate a pulsanti</h1>
 
-    <script src="cicli.js"></script>
+    <!-- Bottone -->
+    <button onclick="saluta()">Click me</button>
+
+
+    <!--Button mostramessaggio-->
+    <button onclick="mostraMessaggio()">Mostra Mes</button>
+
+    <p id="testo1"></p>
+
+
+    <!-- Bottone che scatena la funzione -->
+    <button onclick="cambiaColore()" >Cambia colore</button>
+
+    <div class="box" id="colorato"></div>
+
+   
+
+    <!--  script per Spline (Libreria 3d per website)
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.94/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/qrV2ZddVdecMrFYU/scene.splinecode"></spline-viewer>
+    -->
+
+    <script src="function2.js"></script>
 
 </body>
 </html>
