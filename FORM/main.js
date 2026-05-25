@@ -69,5 +69,5 @@ function inviaForm(){
     //aggiungo componente template literals
     document.getElementById("output").innerHTML = risultato;
 
-
+    document.getElementById("personal_form").reset();
 }

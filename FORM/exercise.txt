@@ -1,0 +1,6 @@
+Trasformare con Bootstrap la web application FORM
+
+dovrà essere responsive e le funzionalità dovranno essere uguali
+
+se volete i dati da visualizzare potranno essere 
+in una card a fianco o sotto o dove e come volete
