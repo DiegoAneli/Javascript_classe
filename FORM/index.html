@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validazione</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Registrazione Utente</h1>
+
+        <form action="">
+
+            <!--Nome-->
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+
+            <!--Cognome-->
+            <label for="cognome">Cognome</label>
+            <input type="text" id="cognome">
+
+            <!--Email-->
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <!--Età-->
+            <label for="eta">Età</label>
+            <input type="number" id="eta">
+
+
+            <!--Città-->
+            <label for="citta">Città</label>
+            <select name="" id="citta">
+                <option value="">Seleziona città</option>
+                <option value="Roma">Roma</option>
+                <option value="Milano">Milano</option>
+                <option value="Torino">Torino</option>
+                <option value="Bologna">Bologna</option>
+            </select>
+
+            <!--Messaggio-->
+            <label for="messaggio">Messaggio</label>
+            <textarea name="" id="messaggio" cols="30" rows="10"></textarea>
+
+
+            <button onclick="inviaForm()" type="button">Invia form</button>
+
+        </form>
+
+
+        <!--Output-->
+        <div id="output"></div>
+
+
+        
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

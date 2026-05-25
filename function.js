@@ -137,6 +137,10 @@ console.log(typeof etaInserita);
 
 
 
+
+
+
+
 //Creare una funzione che calcola il prezzo di un prodotto
 
 // chiedi all utente il prezzo del prodotto e la % di sconto
@@ -161,6 +165,6 @@ function calcolaPrezzoScontato(x, y){
 
 let risultato = calcolaPrezzoScontato(prezzo, sconto).toFixed(2);
 
-console.log(risultato);
+console.log(risultato); 
 
 

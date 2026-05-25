@@ -101,6 +101,8 @@ function nrandom(){
         //mostrare il valore
         paragrafo.innerHTML = numero;
 
+
+        //gestione colore del testo del numero in base al valore
         if(numero < 5){
 
             paragrafo.style.color = "red";
@@ -119,9 +121,6 @@ function nrandom(){
 
 
 
-
-
-
     function incrementa(){
 
         numero++;
@@ -137,6 +136,7 @@ function nrandom(){
 
         aggiornaNumero();
 
+
     }    
 
 
@@ -145,8 +145,64 @@ function nrandom(){
 
 
   /**
+   * 
+   * es 4
+   * 
    * Prendete due input dall utente di due numeri uno decimale e uno intero 
    * e tramite button fate la somma con funzione 
    * e mostrare in pagina il risultato 
    *
    */
+
+  //funzione che fa la somma
+  function sommaEl(){
+
+    //prompt primo numero intero 
+    let numeroInt = parseInt(prompt("Inserisci il numero intero : ")); 
+    //prompt secondo numero decimale
+    let numeroDec = parseFloat(prompt("Inserisci il numero decimale : "));
+
+
+    //trasformo e tipizzo
+    let nInt = Number(numeroInt);
+    let nDec = Number(numeroDec);
+
+    let risultato = nInt + nDec;
+
+    document.getElementById("output").innerHTML = "Il risultato dell somma è " + risultato;
+
+    alert("Il risultato della somma è : " + risultato);
+   
+  }
+
+
+
+
+
+  /**
+   * Prendiamo due valori inseriti in due input in pagina e tramite un bottone
+   * facciamo la somma dei valori inseriti
+   * 
+   * diversamente da quello sopra, qui abbiamo due <input> e prendiamo il value.
+   * 
+   */
+
+function somma(){
+
+
+    let numero1 = Number(document.getElementById("num1").value);
+
+    let numero2 = Number(document.getElementById("num2").value);
+
+
+    let res = numero1 + numero2;
+
+    //mostro il risultato
+    document.getElementById("output").innerHTML = "La somma è di " + res;
+
+    console.log(typeof numero1);
+    console.log(typeof numero2);
+}
+
+
+

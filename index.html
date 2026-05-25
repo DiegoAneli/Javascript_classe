@@ -25,7 +25,9 @@
             width: 300px;
             height: 300px;
             background: green;
+            margin-top: 20px;
         }
+
 
 
     </style>
@@ -55,7 +57,7 @@
     <!--Button mostramessaggio-->
     <button onclick="mostraMessaggio()">Mostra Mes</button>
 
-    <p id="testo1"></p>
+    <h3 id="testo1"></h3>
 
 
     <!-- Bottone che scatena la funzione -->
@@ -67,10 +69,12 @@
 
     <!--esercizio-->
 
+    <button onclick="coloraDivRosso()">Colora di rosso</button>
+
     <div class="box2" id="divrosso"></div>
 
     <!--button che colora di rosso-->
-    <button onclick="coloraDivRosso()">Colora di rosso</button>
+    
 
     <!--button che nasconde il div rosso-->
     <button onclick="nascondi()">Nascondi</button>
@@ -91,25 +95,47 @@
 
     <!--es 3-->
 
-
-    <button onclick="incrementa()">+</button>
     <button onclick="decrementa()">-</button>
+    <button onclick="incrementa()">+</button>
+    
 
-    <p id="numero">20</p>
+    <p min="1" id="numero">20</p>
 
-
-
-
-
-
+  
 
 
 
+    <!--es 4-->
+
+    <!--L input è preso dal prompt ( i due numeri )-->
+    <!--qui scateno la function-->
+    <button onclick="sommaEl()">Somma</button>
+
+
+    <!--Output-->
+    <h3 id="output"></h3>
 
 
 
 
+    <!--es 5-->
 
+<br>
+<h3>Somma di due numeri con input</h3>
+
+
+<label for="">Scegli il primo numero</label>
+<input type="number" id="num1">
+
+
+<label for="">Scegli il secondo numero</label>
+<input type="number" id="num2">
+
+
+<button onclick="somma()">Calcolo somma</button>
+
+
+<h3 id="output"></h3>
 
 
 

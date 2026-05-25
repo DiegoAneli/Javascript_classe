@@ -1,0 +1,67 @@
+body{
+
+    background-color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+}
+
+
+
+
+.container {
+
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
+
+
+label {
+
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+input,
+select,
+textarea{
+
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+
+}
+
+
+button {
+
+    width: 100%;
+    margin-top: 15px;
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+#output{
+
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: none; /*proprietà che cambierà con js riga 70 del main*/
+    
+
+}
