@@ -1,0 +1,55 @@
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: coral;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.carosello {
+
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+
+}
+
+
+.contenitore-card {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+
+button{
+
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: coral;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+
+}
+
+
+button:hover {
+
+    background-color: rgb(182, 89, 56);
+}
+

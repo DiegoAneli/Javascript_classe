@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/f6ecea3643.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Carosello immagini</title>
+</head>
+<body>
+
+    <h1>Sfoglia Galleria</h1>
+
+    <div class="carosello">
+
+        <button class="freccia" onclick="precedente()">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+        <div class="contImg">
+            <img id="img1">
+            <img class="centrale" id="img2">
+            <img id="img3">
+        </div>
+
+        <button class="freccia" onclick="successiva()">
+            <i class="fa-solid fa-angle-right"></i>
+        </button>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
