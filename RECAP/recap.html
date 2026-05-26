@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <section>
+        <p id="testo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, sunt incidunt quisquam iste magni autem rem nobis voluptates veniam numquam perferendis. Dolorem saepe, quasi esse nostrum eligendi impedit qui temporibus.</p>
+        <button onclick="cambiaTesto()">Cambia testo</button>
+    </section>
+    
+
+    <section>
+    
+        <button onclick="cambiaSfondo()">Cambia sfondo</button>
+
+    </section>
+
+
+
+
+    <!--AppendChild() Aggiungo un elemento ad una lista tramite button-->
+    <section>
+
+        <h2>Aggiungi elemento alla lista</h2>
+        
+        <ul id="lista">
+            <li>Item 1</li>
+        </ul>
+
+        <button onclick="aggiungiElemento()">Aggiungi Item</button>
+
+    </section>
+
+
+    <!--Removechild()-->
+    <section>
+
+        <h2>Rimuovi elemento</h2>
+        <p id="rimuoviP">testo da rimuovere</p>
+        <button onclick="rimuoviElemento()">Rimuovi il p</button>
+
+
+    </section>
+
+
+    <!--Toggle attivo /disattivo-->
+    <section>
+
+
+        <h2>Toggle visibilità</h2>
+
+        <div id="box" style="width: 100px; height: 100px; background-color: red;"></div>
+
+        <button onclick="toggleBox()">Toggle</button>
+
+
+    </section>
+
+
+
+    <!--Cambia immagine al click-->
+
+    <section>
+
+        <h2>Cambia immagine</h2>
+
+        <img onmouseout="resetImmagine()" onmouseover="cambiaImmagine()" 
+        id="img" src="https://www.pngkey.com/png/detail/14-148132_minion-imagenes-de-100x100-pixeles.png" alt="">
+        
+    </section>
+
+
+
+    
+    <!--Creare lista da array e visualizzarli in pagina-->
+    <section>
+
+        <h2>Crea lista da array</h2>
+
+        <ol id="nomi"></ol>
+
+        <button onclick="caricaNomi()">Carica</button>
+
+
+
+
+    </section>
+
+
+
+    <script src="recap.js"></script>
+    
+</body>
+</html>
