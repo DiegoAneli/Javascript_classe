@@ -18,4 +18,15 @@
   e si riattiverà il pulsante di Play.
 
 
-  
+
+
+
+  //----------------------------------------------IMPLEMENTAZIONI
+
+  Implementare : quando la canzone viene riprodotta, la scritta "Play" diventa "Playing"
+
+                 trovare un modo per importare una immagine da sostituire nello spinner
+
+                 select option con 3 file mp3 
+
+                 riordinare l estetica della pagina( bottoni, hover, centrature ,font, testi)
