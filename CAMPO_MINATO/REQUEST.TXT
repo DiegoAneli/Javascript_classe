@@ -26,3 +26,21 @@ Con difficoltà 0 = > da 1 a 100
 
 
 
+
+
+
+Suggerimenti x svolgimento : - tramite prompt all utente un valore numerico da 0 a 2 (parseInt)
+                             - impostare il valore massimo del numero in base alla difficoltà
+
+                                    let max;
+                                    if difficoltà === 0 -> max = 100
+                                    if difficoltà === 1 -> max = 80
+                                    if difficoltà === 2 -> max = 50
+
+
+                                fintanto che (while) l array.lenght < 16 -> avviate il math random
+                                                    se l array contiene il numero pushalo nell array
+
+
+                                
+
