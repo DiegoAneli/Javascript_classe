@@ -1,0 +1,21 @@
+-------------------Il programma è uno spinner in stile Pedro spinner
+
+
+- in pagina voglio visualizzare l immagine di un personaggio a mia scelta
+  in quale ruoterà in un loop infinito 
+
+- premendo un bottone avvierò sia lo spinner sia una canzone mp3
+
+- premendo un altro bottone invece, dovrò stoppare sia la musica che lo spinner
+
+- il tasto di stop, sarà inizialmente disattivato
+
+- quando verrà premuto il tasto Play, 
+  passeranno 3 secondi che simuleranno il caricamento della canzone
+  dopo 3 secondi, il pulsante Play, verrà disattivato, e si attiverà quello di Stop.
+
+- quando verrà premuto il pulsante di Stop,si fermerà la canzone e lo spinner 
+  e si riattiverà il pulsante di Play.
+
+
+  
