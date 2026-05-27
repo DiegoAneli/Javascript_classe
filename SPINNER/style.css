@@ -51,3 +51,18 @@ body{
 }
 
 
+
+/*Rotazione immagine*/
+
+
+.rotate {
+
+    animation: spin 3s linear infinite;
+}
+
+@keyframes spin{
+
+    from{ transform: rotate(0deg); } /* 0 gradi */
+    to{ transform: rotate(360deg); } /* 360 gradi */
+}
+
