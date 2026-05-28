@@ -255,9 +255,14 @@ studenti.forEach(function(studente){
 
 console.log(somma);
 
+// media totale / array.lenght
 let media = somma / studenti.length; // il n di studenti
 
 console.log(media);
 
 
-// media totale / array.lenght
+console.log(studenti[1].nome);
+console.log(studenti[0].cognome);
+console.log(studenti[2].voto);
+console.log(studenti[1].sport[1]);
+
