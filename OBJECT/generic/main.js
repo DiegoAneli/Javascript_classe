@@ -266,3 +266,4 @@ console.log(studenti[0].cognome);
 console.log(studenti[2].voto);
 console.log(studenti[1].sport[1]);
 
+
