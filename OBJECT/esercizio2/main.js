@@ -5,11 +5,15 @@
  * 
  * ogni studente deve essere un oggetto con :
  * 
+ * nome = document.getElementbyId("nome").value;
+ * 
+ * 
+ * let studente :
  *      {
- *          nome : "",
- *          cognome : "",
- *          eta : 0,
- *          voto : 0,
+ *          nome : nome,
+ *          cognome : cognome,
+ *          eta : eta,
+ *          voto : voto,
  *          sport : []    
  *      } 
  * 

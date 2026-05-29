@@ -30,6 +30,7 @@
  * 
  *  - stampare tutti i valori di un animale
  * 
+ * 
  *  - elimina una proprietà di un animale
  * 
  *  - crea una copia di un animale usando un ciclo "for in"  
