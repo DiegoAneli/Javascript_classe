@@ -36,3 +36,47 @@
  * 
  * 
  */
+
+let percentuale = 0;
+
+let avviato = false;
+
+let tempo;
+
+function avvia(){
+
+
+    if (avviato) return;
+
+    avviato = true;
+
+    const barra = document.getElementById("barra");
+
+    tempo = setInterval(() => {
+
+        if(percentuale < 100 ){
+
+            percentuale += 5;
+
+            barra.style.width = percentuale + "%";
+            barra.innerHTML = percentuale + "%";
+  
+        }
+
+        if (percentuale >= 100){
+
+            clearInterval(tempo);
+            if (percentuale === 100){
+
+                barra.classList.remove("progress-bar-striped");
+                barra.classList.add("bg-success");
+                barra.innerHTML = "Completed!";
+            }
+            console.log("Download completato");
+        }
+       
+        console.log("Click!");
+    }, 500);
+
+    
+}
