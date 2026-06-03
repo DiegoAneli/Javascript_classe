@@ -80,10 +80,6 @@ function renderPokemon(data){
 
     //aggiungo la riga alla lista
 
-
-
-
-
 }
 
 
