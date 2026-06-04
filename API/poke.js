@@ -64,26 +64,30 @@ function renderPokemon(data){
     //appendo il li nella lista html (ul con id user-list)
     userList.appendChild(liName);
     //controllo se ha oggetti
+    if(data.held_items.length > 0 ){
 
-    //verifico se l array held_items ha almeno un oggetto
+        //ciclo con forEach per tutti gli item di held_item
+        data.held_items.forEach(itemObj => {
+            
+            //prendo il nome dell item
+            const itemName = itemObj.item.name;
 
-    //iteriamo con foreach su ciascun oggetto ("metal-powder","quick-powder")
+            //per ogni versione mostro la rarity
+            itemObj.version_details.forEach(vd => {
 
-    //estraiamo il nome dell oggetto
+                //creo il nuovo <li>
+                const li = document.createElement('li');
 
-    //per ogni versione mostro la rarity
+                //testo composto dal nome dell obj , version details e rarity(numero)
+                li.textContent = `Item : ${itemName}` + `Versione : ${vd.version.name}`+ `Rarity : ${vd.rarity}`;
 
-    //per lo stesso obj cicliamo i dettagli per version_details
+                //appendere la riga alla lista
+                userList.appendChild(li);
 
-    //creo un nuovo li
-
-    //testo composto dal nome obj, version_details e rarity(numero)
-
-    //aggiungo la riga alla lista
-
+            })
+        });
+    }
 }
-
-
 
 fetchPokemon();
 
