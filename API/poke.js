@@ -59,9 +59,10 @@ function renderPokemon(data){
 
 
     //creo un li per le species name di ditto
-
+    const liName = document.createElement('li');
+    liName.textContent = `Specie : ${data.species.name}`;
     //appendo il li nella lista html (ul con id user-list)
-
+    userList.appendChild(liName);
     //controllo se ha oggetti
 
     //verifico se l array held_items ha almeno un oggetto
