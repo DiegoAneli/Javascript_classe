@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+.dimensione {
+
+    height: 184px;
+    width: 280px;
+    object-fit: contain;
+}
+
+
+.my_btn {
+
+    background-color: #F15A24;
+    border: 2px solid black;
+
+}
+
+
+.my_btn:hover {
+
+    background-color: #f1784b;
+    border: 2px solid black;
+    
+}
+
+
+.traballo {
+
+    
+
+}
